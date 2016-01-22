@@ -1,0 +1,66 @@
+header {
+  font-size:3em;
+  background:black;
+}
+header h1 {
+  margin:0;
+}
+header img {
+  width:inherit;
+}
+
+nav {
+  background:grey;
+}
+nav ul {
+  margin:0 0 -1px 0;
+  padding:1em 30%;
+  text-align:center;
+  color:white;
+}
+nav li:hover {
+  border-bottom:solid red 1px;
+  border-top:solid red 1px;
+  
+}
+nav li:active {
+  background-color:white;
+  color:grey;
+  border:none;
+}
+nav li:first-of-type {
+  border-left:red solid 1px;
+}
+nav li {
+  display:inline;
+  border-left:red solid 1px;
+  border-right:red solid 1px;
+  padding:2%;
+  font-size:1.2em;
+  margin:0;
+}
+section {
+  background-color:green;
+}
+article {
+  width:29%;
+  padding:1%;
+  float:left;
+  margin:1%;
+  background-color:#f1fafa;
+  height:250px;
+}
+footer {
+  clear:both;
+  background:black;
+  color:red;
+  padding:3%;
+}
+img {
+  width:100%;
+}
+body {
+  margin:0;
+  padding:0;
+  background-color:black;
+}
